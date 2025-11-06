@@ -84,5 +84,8 @@ quote = "With freedom, books, flowers, and the moon, who could not be happy? - O
 word_in_quote = print(wtf in quote)
 
 # Length and Count:
+phrase = "supercalifragilisticexpialidocious"
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
+lop = print(len(phrase))
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+count_of_i = print(phrase.count('i'))
