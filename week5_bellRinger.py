@@ -42,8 +42,11 @@ PythonQ = "Python is fun. Fun is good. Good is subjective."
 GoodIsS = PythonQ.find("subjective.")
 GoodIsS2 = print(PythonQ[GoodIsS:])
 # b. Extract every third word.
+third_letter = print(PythonQ[: :3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
-
+words = PythonQ.split()
+reversed_words = ' '.join(reversed(words))
+print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
