@@ -50,17 +50,27 @@ print(reversed_words)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
+starwarsQ = "MAY THE FORCE BE WITH YOU."
+print(starwarsQ.lower())
 
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
+motto = ["Make", "haste", "slowly."]
+mottoJoined = ' '.join(motto)
+print(mottoJoined)
 # b. Now, split the string at every occurrence of the letter 'a'.
-
+mottoSplit = mottoJoined.split('a')
+print(mottoSplit)
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
+sentence = "Life is what happens when you are busy making other plans."
+replaceBusy = sentence.replace("busy", "distracted")
+print(replaceBusy)
 # b. Replace "plans" with "mistakes".
-
+replacePlans = sentence.replace("plans", "mistakes")
+print(replacePlans)
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
