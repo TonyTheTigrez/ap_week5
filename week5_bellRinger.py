@@ -11,11 +11,21 @@ print(stlc)
 fci = print(magic.index('r'))
 #d. find lats occurance of letter A
 lai = print(magic.rindex('a'))
+
+
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
+hij = print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
+m_index = print(alphabet.index('m'))
+es = print(alphabet[0:13:2])
 # c. Reverse the entire string using slicing.
+ra = print(alphabet[: :-1])
+ihavedream = "Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity."
+rihavedream = print(ihavedream[: :-1])
+
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
